@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["netrw.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\netrw.nvim",
+    url = "https://github.com/prichrd/netrw.nvim"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\null-ls.nvim",
@@ -172,9 +177,8 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
   },
   ["nvim-web-devicons"] = {
-    loaded = false,
-    needs_bufread = false,
-    path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\nvim-web-devicons",
+    loaded = true,
+    path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
