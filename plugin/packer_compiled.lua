@@ -217,6 +217,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-smoothie"] = {
+    loaded = true,
+    path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-smoothie",
+    url = "https://github.com/psliwka/vim-smoothie"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   }
 }
 
