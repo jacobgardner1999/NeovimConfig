@@ -8,7 +8,7 @@ require'nvim-web-devicons'.setup {
     color = "#428850",
     cterm_color = "65",
     name = "Zsh"
-  }
+  },
  };
  -- globally enable different highlight colors per icon (default to true)
  -- if set to false all icons will have the default icon's color
@@ -28,7 +28,31 @@ require'nvim-web-devicons'.setup {
     icon = "",
     color = "#f1502f",
     name = "Gitignore"
-  }
+  },
+  [".dockerignore"] = {
+    icon = "",
+    color = "#458ee6",
+    cterm_color = "68",
+    name = "Dockerfile",
+  },
+  ["docker-compose.yaml"] = {
+    icon = "",
+    color = "#458ee6",
+    cterm_color = "68",
+    name = "Dockerfile",
+  },
+  ["docker-compose.yml"] = {
+    icon = "",
+    color = "#458ee6",
+    cterm_color = "68",
+    name = "Dockerfile",
+  },
+  ["dockerfile"] = {
+    icon = "",
+    color = "#458ee6",
+    cterm_color = "68",
+    name = "Dockerfile",
+  },
  };
  -- same as `override` but specifically for overrides by extension
  -- takes effect when `strict` is true
@@ -37,6 +61,6 @@ require'nvim-web-devicons'.setup {
     icon = "",
     color = "#81e043",
     name = "Log"
-  }
+  },
  };
 }
