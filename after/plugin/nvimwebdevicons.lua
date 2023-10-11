@@ -30,25 +30,25 @@ require'nvim-web-devicons'.setup {
     name = "Gitignore"
   },
   [".dockerignore"] = {
-    icon = "",
+    icon = "",
     color = "#458ee6",
     cterm_color = "68",
     name = "Dockerfile",
   },
   ["docker-compose.yaml"] = {
-    icon = "",
+    icon = "",
     color = "#458ee6",
     cterm_color = "68",
     name = "Dockerfile",
   },
   ["docker-compose.yml"] = {
-    icon = "",
+    icon = "",
     color = "#458ee6",
     cterm_color = "68",
     name = "Dockerfile",
   },
   ["dockerfile"] = {
-    icon = "",
+    icon = "",
     color = "#458ee6",
     cterm_color = "68",
     name = "Dockerfile",
