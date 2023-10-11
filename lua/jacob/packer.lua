@@ -45,7 +45,7 @@ return require('packer').startup(function(use)
     use('MunifTanjim/prettier.nvim')
 
     use('m4xshen/autoclose.nvim')
-
+    use('ggandor/leap.nvim')
     use('prichrd/netrw.nvim')
     use('nvim-tree/nvim-web-devicons')
     use {
