@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\git-messenger.vim",
     url = "https://github.com/rhysd/git-messenger.vim"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",

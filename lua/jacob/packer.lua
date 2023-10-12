@@ -29,6 +29,7 @@ return require('packer').startup(function(use)
 
 	use("theprimeagen/harpoon")
 	use("mbbill/undotree")
+    use("lewis6991/gitsigns.nvim")
 	use("tpope/vim-fugitive")
     use("tpope/vim-surround")
     use("tpope/vim-commentary")
