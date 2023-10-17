@@ -237,6 +237,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
   },
+  ["vim-dadbod"] = {
+    loaded = true,
+    path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-dadbod",
+    url = "https://github.com/tpope/vim-dadbod"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
