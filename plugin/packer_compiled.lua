@@ -79,11 +79,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["autoclose.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\autoclose.nvim",
-    url = "https://github.com/m4xshen/autoclose.nvim"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
@@ -246,11 +241,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
-  },
-  ["vim-smoothie"] = {
-    loaded = true,
-    path = "C:\\Users\\Jacob.Gardner\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-smoothie",
-    url = "https://github.com/psliwka/vim-smoothie"
   },
   ["vim-surround"] = {
     loaded = true,
