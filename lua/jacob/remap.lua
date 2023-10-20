@@ -42,3 +42,5 @@ vim.api.nvim_set_keymap('n', '<Tab>', [[:lua if vim.bo.modifiable and not vim.bo
 vim.api.nvim_set_keymap('n', '<S-Tab>', [[:lua if vim.bo.modifiable and not vim.bo.readonly and vim.bo.modified then vim.cmd('write') end vim.cmd('bprevious')<CR>]], { noremap = true, silent = true })
 
 vim.api.nvim_set_keymap('n', '<leader>b', ':buffers<CR>:buffer<space>', { noremap = true, silent = true })
+
+vim.api.nvim_set_keymap('n', '<leader>pc', ':wincmd p | pclose<CR>', { noremap = true, silent = true })
