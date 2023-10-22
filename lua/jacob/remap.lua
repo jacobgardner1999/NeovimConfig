@@ -44,3 +44,8 @@ vim.api.nvim_set_keymap('n', '<S-Tab>', [[:lua if vim.bo.modifiable and not vim.
 vim.api.nvim_set_keymap('n', '<leader>b', ':buffers<CR>:buffer<space>', { noremap = true, silent = true })
 
 vim.api.nvim_set_keymap('n', '<leader>pc', ':wincmd p | pclose<CR>', { noremap = true, silent = true })
+
+vim.keymap.set("n", "<C-h>", "<cmd>TmuxNavigateLeft<CR>")
+vim.keymap.set("n", "<C-l>", "<cmd>TmuxNavigateRight<CR>")
+vim.keymap.set("n", "<C-k>", "<cmd>TmuxNavigateUp<CR>")
+vim.keymap.set("n", "<C-j>", "<cmd>TmuxNavigateDown<CR>")
