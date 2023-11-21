@@ -103,4 +103,6 @@ return require('packer').startup(function(use)
 
     use('christoomey/vim-tmux-navigator')
 
+    use('jbyuki/venn.nvim')
+
 end)
