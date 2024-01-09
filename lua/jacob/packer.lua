@@ -71,13 +71,12 @@ return require('packer').startup(function(use)
 
     use("saadparwaiz1/cmp_luasnip")
 
-    use("mfussenegger/nvim-jdtls")
-
     -- tpope
 
     use("tpope/vim-surround")
     use("tpope/vim-commentary")
     use("tpope/vim-dadbod")
+    use("tpope/vim-abolish")
 
     -- git 
 
@@ -104,5 +103,7 @@ return require('packer').startup(function(use)
     use('christoomey/vim-tmux-navigator')
 
     use('jbyuki/venn.nvim')
+
+    use('folke/zen-mode.nvim')
 
 end)
