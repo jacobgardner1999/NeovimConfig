@@ -104,6 +104,19 @@ return require('packer').startup(function(use)
 
     use('jbyuki/venn.nvim')
 
-    use('folke/zen-mode.nvim')
-
+    use{
+        'folke/zen-mode.nvim',
+        opts = {
+            window = {
+                options = {
+                    signcolumn = "no",
+                    number = "false",
+                    relativenumber = "false"
+                },
+            },
+            plugins = {
+               tmux = { enabled = true },
+            },
+        }
+    }
 end)
